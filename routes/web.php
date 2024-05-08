@@ -8,7 +8,7 @@ use App\Http\Controllers\ColorController;
 use App\Http\Controllers\ProductController;
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('product.index');
 });
 
 Route::resource('/unit', UnitController::class);
