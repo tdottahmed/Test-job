@@ -103,12 +103,12 @@
                                 <i class="icon-paint-format"></i>Color
                             </a>
                         </li>
-                        <li class="nav-item">
+                        {{-- <li class="nav-item">
                             <a href="{{ route('size.index') }}"
                                 class="nav-link {{ request()->routeIs('size.index') ? 'active' : '' }}">
                                 <i class="icon-align-top"></i>Size
                             </a>
-                        </li>
+                        </li> --}}
                     </ul>
                 </li>
 

@@ -36,9 +36,9 @@
 											</a>
 
 											<div class="dropdown-menu dropdown-menu-right">
-												<a href="" class="dropdown-item"><i class="icon-pencil7"></i> Edit Product</a>
+												<a href="#" class="dropdown-item"><i class="icon-pencil7"></i> Edit Product</a>
 												<a href="{{ route('product.show', $product->id) }}" class="dropdown-item"><i class="icon-eye"></i> View Product</a>
-                                                <form style="display:inline" action="{{ route('product.destroy', $product->id) }}"
+                                                <form style="display:inline" action="#"
                                                     method="POST">
                                                     @csrf
                                                     @method('delete')

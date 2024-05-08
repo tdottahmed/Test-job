@@ -51,9 +51,9 @@
                              </a>
 
                              <div class="dropdown-menu dropdown-menu-right">
-                                <a href="" class="dropdown-item"><i class="icon-pause"></i> Suspend Sale</a>
-                                <a href="" class="dropdown-item"><i class="icon-reset"></i> Return Sale</a>
-                                            <form style="display:inline" action=""
+                                <a href="#" class="dropdown-item"><i class="icon-pause"></i> Suspend Sale</a>
+                                <a href="#" class="dropdown-item"><i class="icon-reset"></i> Return Sale</a>
+                                            <form style="display:inline" action="#"
                                                 method="POST">
                                                 @csrf
                                                 @method('delete')
@@ -64,7 +64,7 @@
                                                     <i class="icon-trash-alt"></i>Delete
                                                 </button>
                                             </form>
-                                <a href="{{route('pos.invoice',$sale->id)}}" class="dropdown-item"><i class="icon-printer"></i> Print Label</a>
+                                <a href="#" class="dropdown-item"><i class="icon-printer"></i> Print Label</a>
                              </div>
                           </div>
                        </div>
