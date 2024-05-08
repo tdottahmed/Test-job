@@ -1,4 +1,4 @@
-<x-layouts.guest>    
+<x-layouts.master>    
     <div class="main-content">
         <div id="createDiscount" class="modal fade" tabindex="-1">
             <div class="modal-dialog modal-lg">

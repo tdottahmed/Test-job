@@ -115,7 +115,7 @@
 
 
                 <li class="nav-item">
-                    <a target="_blank" href="{{ route('pos.create') }}"
+                    <a href="{{ route('pos.create') }}"
                         class="nav-link {{ request()->is('pos*') ? 'active' : '' }}">
                         <i class="icon-store2"></i>
                         <span>Point Of Sale</span>

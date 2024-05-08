@@ -40,9 +40,6 @@ class ProductController extends Controller
     {
         $productInfos = $request->except('child', '_token', 'sku');
         $variations = $request->child;
-        $validatedData = $request->validate([
-            'variations.default_price' => 'required|array',
-        ]);
         try {
             $productImagePath = null;
             if ($request->file('image')) {
